@@ -1,0 +1,50 @@
+databaseChangeLog:
+  - changeSet:
+      id: insert_friendship_entries
+      author: ron
+      changes:
+        - insert:
+            tableName: friendship
+            columns:
+              - column:
+                  name: user1_id
+                  valueNumeric: 1
+              - column:
+                  name: user2_id
+                  valueNumeric: 2
+        - insert:
+            tableName: friendship
+            columns:
+              - column:
+                  name: user1_id
+                  valueNumeric: 1
+              - column:
+                  name: user2_id
+                  valueNumeric: 3
+        - insert:
+            tableName: friendship
+            columns:
+              - column:
+                  name: user1_id
+                  valueNumeric: 1
+              - column:
+                  name: user2_id
+                  valueNumeric: 4
+        - insert:
+            tableName: friendship
+            columns:
+              - column:
+                  name: user1_id
+                  valueNumeric: 2
+              - column:
+                  name: user2_id
+                  valueNumeric: 3
+        - insert:
+            tableName: friendship
+            columns:
+              - column:
+                  name: user1_id
+                  valueNumeric: 3
+              - column:
+                  name: user2_id
+                  valueNumeric: 4

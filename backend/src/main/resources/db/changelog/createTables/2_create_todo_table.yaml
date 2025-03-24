@@ -1,0 +1,45 @@
+databaseChangeLog:
+  - changeSet:
+      id: create_todo_table
+      author: ron
+      changes:
+        - createTable:
+            tableName: todo
+            columns:
+              - column:
+                  name: todo_id
+                  type: SERIAL
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: title
+                  type: VARCHAR(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: important
+                  type: BOOLEAN
+              - column:
+                  name: checked
+                  type: BOOLEAN
+              - column:
+                  name: date
+                  type: DATE
+                  constraints:
+                    nullable: false
+              - column:
+                  name: description
+                  type: VARCHAR(1000)
+              - column:
+                  name: creator_id
+                  type: INTEGER
+                  constraints:
+                    foreignKeyName: fk_todo_creator_id
+                    references: "todo_user(user_id)"
+                    nullable: false
+              - column:
+                  name: owner_id
+                  type: INTEGER
+                  constraints:
+                    foreignKeyName: fk_todo_owner_id
+                    references: "todo_user(user_id)"

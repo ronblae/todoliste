@@ -1,0 +1,22 @@
+app:
+  name: todo
+  replicaCount: 1
+  image:
+    repository: blaenkner/todo
+    tag: latest
+  port: 8080
+
+service:
+  nodePort: 30100
+
+postgres:
+  url: jdbc:postgresql://postgres-service:5432/todolist
+  user: c3ByaW5nc3R1ZGVudA==
+  password: c3ByaW5nc3R1ZGVudA==
+  port: 5432
+  table:
+    name: todolist
+
+spring:
+  profiles:
+    active: default

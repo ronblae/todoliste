@@ -1,0 +1,141 @@
+{
+  "todos": [
+    {
+      "todoId": 1,
+      "title": "cancel love24.com subscriptionNEU",
+      "important": true,
+      "checked": false,
+      "date": "2023-03-30",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "fromFriend": false,
+      "creatorName": "Ron"
+    },
+    {
+      "todoId": 2,
+      "title": "propose to Madame Victoria Schwollobo on a mountain under the full moon",
+      "important": true,
+      "checked": false,
+      "date": "2023-03-30",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "fromFriend": false,
+      "creatorName": "Ron"
+    },
+    {
+      "todoId": 3,
+      "title": "groceries",
+      "important": false,
+      "checked": true,
+      "date": "2023-04-01",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "fromFriend": false,
+      "creatorName": "Ron"
+    },
+    {
+      "todoId": 4,
+      "title": "monthly gym visit",
+      "important": false,
+      "checked": false,
+      "date": "2023-04-15",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "fromFriend": false,
+      "creatorName": "Ron"
+    },
+    {
+      "todoId": 5,
+      "title": "buy mace for bank heist next month",
+      "important": false,
+      "checked": false,
+      "date": "2023-04-18",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "fromFriend": false,
+      "creatorName": "Ron"
+    },
+    {
+      "todoId": 6,
+      "title": "do your laundry",
+      "important": false,
+      "checked": false,
+      "date": "2023-03-30",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "fromFriend": true,
+      "creatorName": "Mom"
+    },
+    {
+      "todoId": 7,
+      "title": "first date with Madame Victoria Schwollobo",
+      "important": true,
+      "checked": false,
+      "date": "2023-03-28",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "fromFriend": false,
+      "creatorName": "Ron"
+    },
+    {
+      "todoId": 8,
+      "title": "write to-do list",
+      "important": false,
+      "checked": false,
+      "date": "2023-09-03",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "fromFriend": false,
+      "creatorName": "Ron"
+    },
+    {
+      "title": "DEFAULT",
+      "important": false,
+      "checked": true,
+      "date": "2024-03-26",
+      "description": "",
+      "fromFriend": false,
+      "todoId": 10
+    },
+    {
+      "title": "NEUNEUNEN",
+      "important": true,
+      "checked": false,
+      "date": "2024-03-25T09:59:05.161Z",
+      "description": "",
+      "fromFriend": false,
+      "todoId": 11
+    },
+    {
+      "title": "?!?",
+      "important": false,
+      "checked": false,
+      "date": "2024-03-27T08:22:42.104Z",
+      "description": "=!!",
+      "fromFriend": false,
+      "todoId": 12
+    },
+    {
+      "title": "!=!",
+      "important": false,
+      "checked": false,
+      "date": "2024-03-27T08:23:17.365Z",
+      "description": "!)R§\"($%",
+      "fromFriend": false,
+      "todoId": 13
+    },
+    {
+      "title": "BESTE",
+      "important": true,
+      "checked": false,
+      "date": "2024-03-27T09:06:48.789Z",
+      "description": "TODO",
+      "fromFriend": false,
+      "todoId": 14
+    }
+  ],
+  "friendships": [
+    {
+      "userId": 1,
+      "name": "Mom",
+      "email": "my.mother@mother.com"
+    },
+    {
+      "userId": 2,
+      "name": "Vicky Schwoll",
+      "email": "generic.email@generics.com"
+    }
+  ]
+}

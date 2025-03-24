@@ -1,0 +1,37 @@
+databaseChangeLog:
+  - changeSet:
+      id: createTodoUserTable
+      author: ron
+      changes:
+        - createTable:
+            tableName: todo_user
+            columns:
+              - column:
+                  name: user_id
+                  type: SERIAL
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+                    unique: true
+              - column:
+                  name: first_name
+                  type: VARCHAR(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: last_name
+                  type: VARCHAR(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: email
+                  type: VARCHAR(255)
+                  constraints:
+                    nullable: false
+                    unique: true
+              - column:
+                  name: subject
+                  type: VARCHAR
+                  constraints:
+                    nullable: false
+                    unique: true

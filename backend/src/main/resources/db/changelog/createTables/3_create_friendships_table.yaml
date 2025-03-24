@@ -1,0 +1,35 @@
+databaseChangeLog:
+  - changeSet:
+      id: create_friendship_table
+      author: ron
+      changes:
+        - createTable:
+            tableName: friendship
+            columns:
+              - column:
+                  name: user1_id
+                  type: INTEGER
+              - column:
+                  name: user2_id
+                  type: INTEGER
+            primaryKey:
+              columns:
+                - column:
+                    name: user1_id
+                - column:
+                    name: user2_id
+            foreignKeyConstraints:
+              - foreignKeyConstraint:
+                  baseTableName: friendship
+                  baseColumnNames:
+                    - user1_id
+                  referencedTableName: todo_user
+                  referencedColumnNames:
+                    - user_id
+              - foreignKeyConstraint:
+                  baseTableName: friendship
+                  baseColumnNames:
+                    - user2_id
+                  referencedTableName: todo_user
+                  referencedColumnNames:
+                    - user_id

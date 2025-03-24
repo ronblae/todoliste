@@ -1,0 +1,39 @@
+spring:
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:default}
+  datasource:
+    url: ${POSTGRES_URL:jdbc:postgresql://localhost/todolist}
+    username: ${USER_NAME:springstudent}
+    password: ${USER_PASSWORD:springstudent}
+  security:
+    user:
+      name: admin
+      password: admin
+    oauth2:
+      client:
+        provider:
+          azure:
+            issuer-uri: https://login.microsoftonline.com/d2325db5-8c43-4ebe-b36c-dee2af0481d9/v2.0
+        registration:
+          azure:
+            client-id: cc7beefd-6c4d-4685-b185-677c37ac3377
+            client-secret: vdt8Q~tqQO8XUhQJuj.NxbUMftKHs171VWI2SbB0
+            provider: azure
+            scope: openid
+  data:
+    rest:
+      base-path: /api
+  liquibase:
+    change-log: classpath:db/changelog/changelog-master.yaml
+    enabled: true
+
+logging:
+  level:
+    root: info
+
+de:
+  inmediasp:
+    mercedes:
+      todoapp:
+        security:
+          disabled: false

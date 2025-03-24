@@ -1,0 +1,65 @@
+databaseChangeLog:
+  - changeSet:
+      id: insertTodoUsers
+      author: ron
+      changes:
+        - insert:
+            tableName: todo_user
+            columns:
+              - column:
+                  name: first_name
+                  value: Ron
+              - column:
+                  name: last_name
+                  value: Blänkner
+              - column:
+                  name: email
+                  value: blaenkner@inmediasp.de
+              - column:
+                  name: subject
+                  value: 2Psm_ySwNuUSpJ2edWKORk8OuZ5689mChtsLDh4AlnI
+        - insert:
+            tableName: todo_user
+            columns:
+              - column:
+                  name: first_name
+                  value: User1
+              - column:
+                  name: last_name
+                  value: 'von User'
+              - column:
+                  name: email
+                  value: user1@email.de
+              - column:
+                  name: subject
+                  value: A
+        - insert:
+            tableName: todo_user
+            columns:
+              - column:
+                  name: first_name
+                  value: User3
+              - column:
+                  name: last_name
+                  value: 'von User'
+              - column:
+                  name: email
+                  value: user2@email.de
+              - column:
+                  name: subject
+                  value: B
+        - insert:
+            tableName: todo_user
+            columns:
+              - column:
+                  name: first_name
+                  value: User3
+              - column:
+                  name: last_name
+                  value: 'von User'
+              - column:
+                  name: email
+                  value: user3@email.de
+              - column:
+                  name: subject
+                  value: C

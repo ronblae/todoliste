@@ -1,0 +1,245 @@
+databaseChangeLog:
+  - changeSet:
+      id: insert_todo_entries
+      author: ron
+      changes:
+        - insert:
+            tableName: todo
+            columns:
+              - column:
+                  name: title
+                  value: 'cancel love24.com subscription'
+              - column:
+                  name: important
+                  value: 'true'
+              - column:
+                  name: checked
+                  value: 'false'
+              - column:
+                  name: date
+                  valueDate: '2023-03-30'
+              - column:
+                  name: description
+                  value: 'Lorem ipsum...'
+              - column:
+                  name: creator_id
+                  valueNumeric: 1
+              - column:
+                  name: owner_id
+                  valueNumeric: 1
+        - insert:
+            tableName: todo
+            columns:
+              - column:
+                  name: title
+                  value: 'propose to Madame Victoria Schwollobo on a mountain under the full moon'
+              - column:
+                  name: important
+                  value: 'true'
+              - column:
+                  name: checked
+                  value: 'false'
+              - column:
+                  name: date
+                  valueDate: '2023-03-30'
+              - column:
+                  name: description
+                  value: 'Lorem ipsum...'
+              - column:
+                  name: creator_id
+                  valueNumeric: 1
+              - column:
+                  name: owner_id
+                  valueNumeric: 1
+        - insert:
+            tableName: todo
+            columns:
+              - column:
+                  name: title
+                  value: 'groceries'
+              - column:
+                  name: important
+                  value: 'false'
+              - column:
+                  name: checked
+                  value: 'false'
+              - column:
+                  name: date
+                  valueDate: '2023-04-01'
+              - column:
+                  name: description
+                  value: 'Lorem ipsum...'
+              - column:
+                  name: creator_id
+                  valueNumeric: 1
+              - column:
+                  name: owner_id
+                  valueNumeric: 1
+        - insert:
+            tableName: todo
+            columns:
+              - column:
+                  name: title
+                  value: 'monthly gym visit'
+              - column:
+                  name: important
+                  value: 'false'
+              - column:
+                  name: checked
+                  value: 'false'
+              - column:
+                  name: date
+                  valueDate: '2023-04-15'
+              - column:
+                  name: description
+                  value: 'Lorem ipsum...'
+              - column:
+                  name: creator_id
+                  valueNumeric: 1
+              - column:
+                  name: owner_id
+                  valueNumeric: 1
+        - insert:
+            tableName: todo
+            columns:
+              - column:
+                  name: title
+                  value: 'buy mace for bank heist next month'
+              - column:
+                  name: important
+                  value: 'false'
+              - column:
+                  name: checked
+                  value: 'false'
+              - column:
+                  name: date
+                  valueDate: '2023-04-18'
+              - column:
+                  name: description
+                  value: 'Lorem ipsum...'
+              - column:
+                  name: creator_id
+                  valueNumeric: 1
+              - column:
+                  name: owner_id
+                  valueNumeric: 1
+        - insert:
+            tableName: todo
+            columns:
+              - column:
+                  name: title
+                  value: 'do your laundry'
+              - column:
+                  name: important
+                  value: 'false'
+              - column:
+                  name: checked
+                  value: 'false'
+              - column:
+                  name: date
+                  valueDate: '2023-03-30'
+              - column:
+                  name: description
+                  value: 'Lorem ipsum...'
+              - column:
+                  name: creator_id
+                  valueNumeric: 3
+              - column:
+                  name: owner_id
+                  valueNumeric: 1
+        - insert:
+            tableName: todo
+            columns:
+              - column:
+                  name: title
+                  value: 'first date with Madame Victoria Schwollobo'
+              - column:
+                  name: important
+                  value: 'true'
+              - column:
+                  name: checked
+                  value: 'true'
+              - column:
+                  name: date
+                  valueDate: '2023-03-28'
+              - column:
+                  name: description
+                  value: 'Lorem ipsum...'
+              - column:
+                  name: creator_id
+                  valueNumeric: 1
+              - column:
+                  name: owner_id
+                  valueNumeric: 1
+        - insert:
+            tableName: todo
+            columns:
+              - column:
+                  name: title
+                  value: 'write to-do list'
+              - column:
+                  name: important
+                  value: 'false'
+              - column:
+                  name: checked
+                  value: 'true'
+              - column:
+                  name: date
+                  valueDate: '2023-03-09'
+              - column:
+                  name: description
+                  value: 'Lorem ipsum...'
+              - column:
+                  name: creator_id
+                  valueNumeric: 1
+              - column:
+                  name: owner_id
+                  valueNumeric: 1
+        - insert:
+            tableName: todo
+            columns:
+              - column:
+                  name: title
+                  value: 'Lorem ipsum dolor sit amet'
+              - column:
+                  name: important
+                  value: 'false'
+              - column:
+                  name: checked
+                  value: 'true'
+              - column:
+                  name: date
+                  valueDate: '1970-01-01'
+              - column:
+                  name: description
+                  value: 'Lorem ipsum...'
+              - column:
+                  name: creator_id
+                  valueNumeric: 1
+              - column:
+                  name: owner_id
+                  valueNumeric: 1
+        - insert:
+            tableName: todo
+            columns:
+              - column:
+                  name: title
+                  value: 'Dies sollte nicht hier auftauchen.'
+              - column:
+                  name: important
+                  value: 'false'
+              - column:
+                  name: checked
+                  value: 'true'
+              - column:
+                  name: date
+                  valueDate: '1970-01-01'
+              - column:
+                  name: description
+                  value: 'Absolut nicht.'
+              - column:
+                  name: creator_id
+                  valueNumeric: 1
+              - column:
+                  name: owner_id
+                  valueNumeric: 2
